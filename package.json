@@ -1,0 +1,22 @@
+{
+  "name": "project6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NevelSenden/Project-6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NevelSenden/Project-6/issues"
+  },
+  "homepage": "https://github.com/NevelSenden/Project-6#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
