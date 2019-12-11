@@ -1,0 +1,75 @@
+body {                              /* Body lay out */
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+.header {                           /* header lay out */
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+#navbar {                           /* lay out of the navbar */
+    overflow: hidden; 
+    background-color: #384047;
+  }
+  
+#navbar a {                         /* lay out of the navbar */
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+#navbar a:hover {                   /* Lay out of the navbar */
+    background-color: #ddd;
+    color: black;
+  }
+  
+#navbar a.active {                  /* Lay out of the navbar  */
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+.content {                          /* Content lay out */
+    padding: 16px;
+  }
+  
+.sticky {                           /* navbar stickyness, so that the navbar will scroll with the page at the top */
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.sticky + .content {              /* navbar stickyness, so that the navbar will scroll with the page at the top */
+    padding-top: 60px;
+  }
+
+  
+button {                           /* Button lay-out */
+    float: right;
+}
+
+#navbar a {
+    color: #384047;
+}
+
+.container {                        /* Container holding image and text */
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.centered {                         /* Centered text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* End of the CSS code for the ranking */
